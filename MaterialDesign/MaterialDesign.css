@@ -420,7 +420,7 @@ button.lookFilled-yCfaCM {
     padding: 4px 6px;
 }
 
-.groupStart__7b93c.cozyMessage__9f4fd .contents_d3ae0d,
+.groupStart__7b93c.cozyMessage__9f4fd .contents_d3ae0d, 
 .cozyMessage__9f4fd:not(.groupStart__7b93c) .contents_d3ae0d > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *) {
     background-color: var(--04dp);
     display: inline-block;
@@ -1013,6 +1013,7 @@ button.colorRed-rQXKgM:not(.footer-31IekZ .button__581d0, .lookFilled-yCfaCM):ho
 
 .container_debb33 .button__581d0[aria-label="Mute"] g g g ~ g {
     display: none;
+    opacity: 0;
   }
 
 .container_debb33 .button__581d0[aria-label="Deafen"] g g g g path {
@@ -1076,4 +1077,23 @@ button.colorRed-rQXKgM:not(.footer-31IekZ .button__581d0, .lookFilled-yCfaCM):ho
 /* Chatbox */
 [d="M12 2.00098C6.486 2.00098 2 6.48698 2 12.001C2 17.515 6.486 22.001 12 22.001C17.514 22.001 22 17.515 22 12.001C22 6.48698 17.514 2.00098 12 2.00098ZM17 13.001H13V17.001H11V13.001H7V11.001H11V7.00098H13V11.001H17V13.001Z"] {
     d: path("M16.5 6v11.5c0 2.21-1.79 4-4 4s-4-1.79-4-4V5c0-1.38 1.12-2.5 2.5-2.5s2.5 1.12 2.5 2.5v10.5c0 .55-.45 1-1 1s-1-.45-1-1V6H10v9.5c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5V5c0-2.21-1.79-4-4-4S7 2.79 7 5v12.5c0 3.04 2.46 5.5 5.5 5.5s5.5-2.46 5.5-5.5V6h-1.5z") !important;
+}
+
+/* Personal Additions */
+
+.visualMediaItemContainer__582ad {
+    width: 100%;
+    height: 100%;
+    max-width: 550px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.repliedMessage__636d2 {
+    --reply-spacing: 6px;
+}
+
+.groupStart__7b93c.cozyMessage__9f4fd .contents_d3ae0d, .cozyMessage__9f4fd:not(.groupStart__7b93c) .contents_d3ae0d > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *) {
+    margin-top: 2px;
 }
