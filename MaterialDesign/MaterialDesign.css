@@ -1021,7 +1021,7 @@ button.colorRed-rQXKgM:not(.footer-31IekZ .button__581d0, .lookFilled-yCfaCM):ho
     opacity: 0;
   }
 
-  .container_debb33 .button__581d0[aria-label="Mute"][aria-checked="true"]g[transform="matrix(1,0,0,1,-200,-200)"] g g {
+  .container_debb33 .button__581d0[aria-label="Mute"][aria-checked="true"] g[transform="matrix(1,0,0,1,-200,-200)"] g g g {
     opacity: 1;
   }
 
