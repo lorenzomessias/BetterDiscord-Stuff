@@ -1096,3 +1096,7 @@ button.colorRed-rQXKgM:not(.footer-31IekZ .button__581d0, .lookFilled-yCfaCM):ho
 .groupStart__7b93c.cozyMessage__9f4fd .contents_d3ae0d, .cozyMessage__9f4fd:not(.groupStart__7b93c) .contents_d3ae0d > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *) {
     margin-top: 2px;
 }
+
+.zoomedCarouselModalRoot__32ea8 {
+    background: transparent !important;
+}
